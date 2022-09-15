@@ -58,7 +58,7 @@ thargstar_1_linepts += thargstar_1_mean
 thargstar_2_linepts += thargstar_2_mean
 thargstar_3_linepts += thargstar_3_mean
 
-all_points = np.append(thargstar_1, [[-83.5625, -73.40625, -244.34375], [-11.5625, -15.40625, -181.09375], [76.5625, 9.34375, -183.4375]], axis=0)
+all_points = np.append(thargstar_1, [[-83.5625, -73.40625, -244.34375], [-11.5625, -15.40625, -181.09375], [76.5625, 9.34375, -183.4375], [0, 0, 0], [-41.3125, -58.96875, -354.78125]], axis=0)
 all_points = np.append(all_points, thargstar_2, axis=0)
 all_points = np.append(all_points, thargstar_3, axis=0)
 # Verify that everything looks right.
